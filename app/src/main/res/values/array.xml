@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="temp_metric">
-        <item>Fahrenheit</item>
-        <item>Celsius</item>
+    <string-array name="pref_uunits_options">
+        <item>@string/pref_units_metric</item>
+        <item>@string/pref_units_imperial</item>
     </string-array>
-    <string-array name="temp_metric_value">
-        <item>false</item>
-        <item>true</item>
+    <string-array name="pref_units_values">
+        <item>@string/pref_units_metric</item>
+        <item>@string/pref_units_imperial</item>
     </string-array>
 </resources>
