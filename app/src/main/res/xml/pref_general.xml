@@ -11,11 +11,11 @@
         android:singleLine="true"
         />
     <ListPreference
-        android:title="@string/pref_metric_label"
-        android:key="@string/pref_location_key"
-        android:entries="@array/temp_metric"
-        android:entryValues="@array/temp_metric_value"
-        android:summary="@string/pref_metric_summ"
+        android:title="@string/pref_units_label"
+        android:key="@string/pref_units_key"
+        android:entries="@array/pref_units_options"
+        android:entryValues="@array/pref_units_values"
+        android:defaultValue="@array/pref_units_options"
         />
 
 </PreferenceScreen>

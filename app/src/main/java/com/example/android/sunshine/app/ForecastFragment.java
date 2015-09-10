@@ -67,9 +67,7 @@ public class ForecastFragment extends Fragment {
             updateWeather();
             return true;
         }
-        else if(id == R.id.action_settings) {
 
-        }
         return super.onOptionsItemSelected(item);
     }
 
